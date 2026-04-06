@@ -1,0 +1,3 @@
+Link for VS code installation along with setting python environment insode VScode
+
+https://youtu.be/zk5qOQBvuK4?si=_3vcZ597LzMI0hQr
