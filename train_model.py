@@ -1,5 +1,5 @@
 import  pandas as pd  
-df = pd.read_csv('car_dataset.csv')
+df = pd.read_csv('car_cleaned_data.csv')
 df.head()
 df.columns
 X=df[['Present_Price', 'Kms_Driven',
