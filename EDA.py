@@ -14,7 +14,7 @@ df["Car_Age"]=todays_date.year-df['Year']
 df.head()
 
 df = pd.get_dummies(df.drop(columns=['Car_Name','Seller_Type']), dtype=int)
-# df=pd.get_dummies(df.drop(columns=['Car_Name','Seller_Type'],axis=1), dtype=int) wrong code
+# df=pd.get_dummies(df.drop(columns=['Car_Name','Seller_Type'],axis=1), dtype=int)
 df.head()
 # df.to_csv("car_cleaned_data.csv")
 df.to_csv('car_cleaned_data.csv', index=False)
