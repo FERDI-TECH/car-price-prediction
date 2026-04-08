@@ -6,7 +6,7 @@ import pickle
 
  
 # Load trained linear regression model
-model = pickle.load(open('lr_model.pkl', 'rb'))
+model = pickle.load(open('rf_model.pkl', 'rb'))
 # Streamlit UI
 st.set_page_config(page_title="Used Car Price Predictor", layout="centered")
  
